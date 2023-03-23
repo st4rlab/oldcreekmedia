@@ -1,0 +1,43 @@
+---
+layout: homepage
+title: miniml
+logo: light
+---
+
+<body>
+  <div class="uk-background-cover uk-background-bottom-center" style="background-image: url({{ "/assets/img/merge.jpg" | relative_url }});background-color:#333333;">
+    {% include header.html %}
+    <div class="uk-section uk-section-large">
+      <div class="intro-text uk-container">
+        <h2 class="uk-heading-medium uk-animation-slide-left-small">javascript/css</h2>
+        <div class="uk-grid-match uk-child-width-1-1@m" uk-grid>
+          <div>
+            <h3 class="uk-h4 uk-animation-slide-left-small">Fast flexible framework for freelancers and artists.</h3>
+            <div>
+              <a class="uk-button uk-button-primary uk-button-large" href="{{"/installation" | relative_url }}">Get Started</a>
+              <a class="uk-button uk-button-default uk-button-large uk-inline-block" href="https://github.com/st4rlab/miniml">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include sections/responsive.html %}
+  {% include sections/installation.html %}
+  {% include sections/custom-icons.html %}
+  {% include sections/blocks.html %}
+  <div id="Connect" class="uk-section uk-section-secondary">
+    <div class="uk-container">
+      <h2 class="uk-heading-line"><span>Connect</span></h2>
+      <div class="uk-child-width-1-2@m" uk-grid>
+        <div>
+          <p>
+            miniml is always looking for contributors to help out. Your involvement is creatively appreciated.
+          </p>
+        </div>
+        <div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
