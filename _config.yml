@@ -112,7 +112,18 @@ defaults:
       layout: "page"
       show-avatar: true
 
+  - scope:
+      path: ""
+      type: "portfolio_items"
+    values:
+      layout: "portfolio"
 
+  - scope:
+      path: ""
+      type: "websites"
+    values:
+      layout: "website"
+      
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
