@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/portfolio/70s-at-the-beach/</loc>
+<lastmod>2023-02-23T13:49:18-08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/markdown-test/</loc>
 <lastmod>2022-01-28T12:30:00-08:00</lastmod>
 </url>
