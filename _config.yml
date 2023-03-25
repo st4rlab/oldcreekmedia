@@ -45,7 +45,7 @@ plugins:
 
 # 3. Gem settings
 paginate_path: "/blog/page:num/"
-paginate: 5
+paginate: 20
 
 
 # 4. Jekyll settings
@@ -54,14 +54,22 @@ excerpt_separator: "<!--more-->"
 timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# 5. Collections
+collections:
+  portfolio_items:
+    output: true
+    permalink: /portfolio/:path/
+
+  websites:
+    output: true
+    permalink: /websites/:path/
+
 # Not using collections at this time
 # 6. Jekyll collections settings
 # Not using collections at this time
 
 # 7. Site settings
-name: miniml
-title: MINIML
+name: Old Creek Media
+title: Old Creek Media
 author: Isaac Horton
 email: st4rdusdt@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -123,7 +131,7 @@ defaults:
       type: "websites"
     values:
       layout: "website"
-      
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
